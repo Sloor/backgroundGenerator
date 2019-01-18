@@ -1,0 +1,36 @@
+body {
+	background-image: linear-gradient(to right, red, yellow);
+	height: 100vh;
+}
+
+h1 {
+	font-family: 'Gamja Flower', cursive;
+	font-size: 4.5rem;
+	letter-spacing: 1rem;
+	margin: 3rem;
+	text-shadow: 0 10px 30px #f9f9f9;
+	color: rgb(72, 72, 72);
+}
+
+h1,p {
+	text-align: center;
+}
+
+p {
+	display: block;
+	margin: 50px auto;
+	width: 40%;
+	box-shadow: 5px 5px 30px rgb(72, 72, 72), -5px -5px 30px rgb(72, 72, 72);
+	padding: 5px;
+}
+
+
+input[type="color"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.directionBoxes {
+	margin: 20px;
+	text-align: center;
+}
